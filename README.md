@@ -27,7 +27,7 @@ class APIClient
 
     public function fetchProduct(string $productId)
     {
-        $uri = $this->fetchUriFor('https://example.com', "products/{$productId}");
+        $uri = $this->resolveUriFor('https://example.com', "products/{$productId}");
     }
 }
 ```
