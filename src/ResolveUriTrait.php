@@ -18,9 +18,11 @@ use GuzzleHttp\Psr7\UriResolver;
 trait ResolveUriTrait
 {
     /**
+     * @param string|UriInterface $baseUri
+     * @param string|UriInterface $uri
      * @return UriInterface
      */
-    public function resolveUriFor(string|UriInterface $baseUri, string|UriInterface $uri): UriInterface
+    public function resolveUriFor($baseUri, $uri): UriInterface
     {
         $base = Utils::uriFor($baseUri);
         $rel = Utils::uriFor($uri);
