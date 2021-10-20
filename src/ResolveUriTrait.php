@@ -8,6 +8,7 @@
 
 namespace BrokeYourBike\ResolveUri;
 
+use Psr\Http\Message\UriInterface;
 use GuzzleHttp\Psr7\Utils;
 use GuzzleHttp\Psr7\UriResolver;
 
@@ -17,13 +18,13 @@ use GuzzleHttp\Psr7\UriResolver;
 trait ResolveUriTrait
 {
     /**
-     * @return \Psr\Http\Message\UriInterface
+     * @return UriInterface
      */
-    public function resolveUriFor(string $baseUri, string $uri): \Psr\Http\Message\UriInterface
+    public function resolveUriFor(string|UriInterface $baseUri, string|UriInterface $uri): UriInterface
     {
-        $baseUri = Utils::uriFor($baseUri);
-        $uri = Utils::uriFor($uri);
+        $base = Utils::uriFor($baseUri);
+        $rel = Utils::uriFor($uri);
 
-        return UriResolver::resolve($baseUri, $uri);
+        return UriResolver::resolve($base, $rel);
     }
 }

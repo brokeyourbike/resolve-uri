@@ -25,7 +25,7 @@ class ResolveUriTest extends TestCase
     }
 
     /** @test */
-    public function it_can_resolve_uri()
+    public function it_can_resolve_uri_from_strings()
     {
         $apiClient = new ApiClientFixture();
 
