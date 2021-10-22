@@ -4,9 +4,9 @@
 [![Total Downloads](https://poser.pugx.org/brokeyourbike/resolve-uri-php/downloads)](https://packagist.org/packages/brokeyourbike/resolve-uri-php)
 [![License: MPL-2.0](https://img.shields.io/badge/license-MPL--2.0-purple.svg)](https://github.com/brokeyourbike/resolve-uri-php/blob/main/LICENSE)
 
-[![ci](https://github.com/brokeyourbike/resolve-uri-php/actions/workflows/ci.yml/badge.svg)](https://github.com/brokeyourbike/resolve-uri-php/actions/workflows/ci.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/3df6e54f7cf05830ded9/maintainability)](https://codeclimate.com/github/brokeyourbike/resolve-uri-php/maintainability)
-[![codecov](https://codecov.io/gh/brokeyourbike/resolve-uri-php/branch/main/graph/badge.svg?token=ImcgnxzGfc)](https://codecov.io/gh/brokeyourbike/resolve-uri-php)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/3df6e54f7cf05830ded9/test_coverage)](https://codeclimate.com/github/brokeyourbike/resolve-uri-php/test_coverage)
+[![tests](https://github.com/brokeyourbike/resolve-uri-php/actions/workflows/tests.yml/badge.svg)](https://github.com/brokeyourbike/resolve-uri-php/actions/workflows/tests.yml)
 
 Trait for resolving URI
 
