@@ -30,5 +30,10 @@
         "bamarni/composer-bin-plugin": "^1.4",
         "phpunit/phpunit": "^9.5"
     },
-    "version": "1.0.2"
+    "version": "1.0.2",
+    "config": {
+        "allow-plugins": {
+            "bamarni/composer-bin-plugin": true
+        }
+    }
 }
