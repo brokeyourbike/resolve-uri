@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/brokeyourbike/resolve-uri-php/compare/v1.0.2...v1.0.3) (2023-05-14)
+
+
+### Miscellaneous Chores
+
+* badges ([0aaeb2e](https://github.com/brokeyourbike/resolve-uri-php/commit/0aaeb2ee8026b3b6353063a78cb129561bac1ba5))
+
 ### [1.0.2](https://www.github.com/brokeyourbike/resolve-uri-php/compare/v1.0.1...v1.0.2) (2021-12-10)
 
 
