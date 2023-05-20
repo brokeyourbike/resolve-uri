@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/brokeyourbike/resolve-uri-php/compare/v1.0.3...v1.0.4) (2023-05-20)
+
+
+### Miscellaneous Chores
+
+* button ([6b25a42](https://github.com/brokeyourbike/resolve-uri-php/commit/6b25a42db1e0ea6fbe0fb68290f115b2cb230128))
+
 ## [1.0.3](https://github.com/brokeyourbike/resolve-uri-php/compare/v1.0.2...v1.0.3) (2023-05-14)
 
 
